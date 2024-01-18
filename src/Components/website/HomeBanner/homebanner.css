@@ -1,0 +1,56 @@
+.home-banner {
+    background: #121619;
+  }
+  
+  .home-banner .home-bg {
+    background: url(../asserts/home-bg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+  }
+  
+  .home-banner .home-bg .container,
+  .home-banner .home-bg .row {
+    height: 100%;
+  }
+  
+  .home-banner .home-bg .text-box {
+    color: #fff;
+    z-index: 100000;
+    overflow: hidden;
+  }
+  
+  .home-banner .home-bg .text-box h1 {
+    font-size: 150px !important;
+    font-weight: 700;
+  }
+  
+  .home-banner .home-bg .text-box h1 span {
+    color: #fe9d3e;
+  }
+  
+  .home-banner .home-bg .text-box p {
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: #fe9d3e;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 1366px) {
+    .home-banner .home-bg {
+      height: 100vh !important;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .home-banner .home-bg .text-box {
+      margin-bottom: -82px;
+    }
+  
+    .home-banner .home-bg .text-box h1 {
+      font-size: 100px !important;
+    }
+  }
+  
