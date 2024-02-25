@@ -1,0 +1,30 @@
+.HomeNav{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    padding: 0vw 5vw ;
+    height: 70px;
+    border-bottom: 2px solid white;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.links li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.links li:hover{
+    scale: 1.5;
+    z-index: 5;
+    transition: 200ms ease-in-out;
+    color: white;
+    text-decoration: underline;
+}

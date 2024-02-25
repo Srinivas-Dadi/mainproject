@@ -1,11 +1,15 @@
 import React from 'react'
-import HomeBanner from '../Components/website/HomeBanner/HomeBanner.jsx';
+import HomeNav from '../Components/website/HomeNav/HomeNav'
+import HomeBanner from '../Components/website/HomeBanner/HomeBanner'
+import FeaturedProducts from '../Components/website/FeaturedProducts/FeaturedProducts'
 
 
 const Website = () => {
   return (
     <div>
-       <HomeBanner />
+      <HomeNav />
+      <HomeBanner />
+      <FeaturedProducts />
     </div>
   )
 }
